@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Calculate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play">Play</string>
+    <string name="stats">Stats</string>
+    <string name="game_title">Difficulty level: %1$d</string>
+    <string name="game_total">Problem: %1$d</string>
+    <string name="game_correct">Correct: %1$d</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="answer">Answer</string>
+    <string name="serial">Serial</string>
+    <string name="date">Date</string>
+    <string name="total">Total</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="time_s">Time(S)</string>
+    <string name="difficultycolon">Difficulty:</string>
+
+    <string-array name="difficulty">
+        <item>UNDEFINED</item>
+        <item>LEVEL 1</item>
+        <item>LEVEL 2</item>
+        <item>LEVEL 3</item>
+        <item>LEVEL 4</item>
+        <item>LEVEL 5</item>
+    </string-array>
+</resources>

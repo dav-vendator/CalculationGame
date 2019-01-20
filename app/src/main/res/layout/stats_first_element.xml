@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:weightSum="100">
+
+    <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="20"
+            android:text="@string/serial"
+            android:fontFamily="@font/coustard"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textAlignment="center"/>
+
+    <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="30"
+            android:text="@string/date"
+            android:fontFamily="@font/coustard"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textAlignment="center"/>
+
+    <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="15"
+            android:text="@string/total"
+            android:fontFamily="@font/coustard"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textAlignment="center"/>
+
+    <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="15"
+            android:text="@string/accuracy"
+            android:fontFamily="@font/coustard"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textAlignment="center"/>
+
+    <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="20"
+            android:text="@string/time_s"
+            android:fontFamily="@font/coustard"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textAlignment="center"/>
+</LinearLayout>

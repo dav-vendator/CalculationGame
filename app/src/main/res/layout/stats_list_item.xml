@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:weightSum="100">
+
+    <TextView
+            android:id="@+id/tvSerial"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="start"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:textAlignment="center"/>
+
+    <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:layout_weight="35"
+            android:textAlignment="center"/>
+
+    <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:gravity="start"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:textAlignment="center"/>
+
+    <TextView
+            android:id="@+id/tvAccuracy"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:textSize="10sp"
+            android:textAlignment="center"/>
+
+    <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:textSize="10sp"
+            android:textAlignment="center"/>
+</LinearLayout>
